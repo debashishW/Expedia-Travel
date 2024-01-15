@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.header,.banner{
+    max-width: 1200px;
+    margin:50px auto;
+}
+/* Hedaer Styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    margin-right: 44px;
+    color:#424247;
+    text-align: center;
+    font-size: 18px;    
+    font-weight: 400;
+
+}
+.navbar-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.expedia{
+  color: #FF5400 ; 
+  font-size: 50px;
+}
+ a.active{
+    color: #FF5400;
+}
+/* Main Styles */
+
+.banner-title{
+    position: absolute;
+    bottom: 49%;
+    left: 30.4%;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+.banner-description{
+    position: absolute;
+    bottom: 39%;
+    left: 28%;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    width: 676px;
+    
+}
+.input-box{
+    position: absolute;
+    bottom: 20%;
+    left: 23%;
+    display: inline-flex;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+
+
+.input-box input[type="text"] {
+
+    border: 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 24px;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+}
+  #places {
+    width: 174px;
+    padding: 16px;
+    border-radius: 8px;
+   background: #FFF;
+   border: 0;
+   margin-right: 24px;
+}
+
+.input-box input[type="submit"]{
+    width: 174px;
+    height: 52px;
+    border: 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+
+}
+.input-box i{
+    position: absolute;
+    right: 158px;
+    bottom: 37px; 
+     color: #FFF;
+    
+}
