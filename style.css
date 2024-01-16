@@ -263,3 +263,72 @@ font-weight: 800;
     font-size: 16px;
     font-weight: 400;
 } 
+.food{
+    margin: 80px 180px; 
+}
+.food-media{
+   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+ .food-media img{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 20%;
+
+}
+.pic-1{
+    position: relative;
+    left: 80%;
+}
+.food-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+.food-details{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.title-1{
+    position: relative;
+    left: 300px;
+   top: 70px;
+}
+.title-5{
+    position: relative;
+    top: 90px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+
+}
+.title-2{
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.title-6{
+    position: relative;
+    left: 300px;
+    top: 100px;
+    color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+}
+.title-7{
+    position: relative;
+    left: 100px;
+    top: 100px;
+    color: #5A5A5D;
+   font-size: 16px;
+  font-weight: 400; 
+}
