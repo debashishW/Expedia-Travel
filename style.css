@@ -303,3 +303,152 @@ font-weight: 400;
     display: flex;
     justify-content: space-between;
 }
+
+.bangladesh{
+    margin: 50px 180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.bd-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.bd-title-1{
+    color: #5A5A5D;
+    font-size: 16px;
+   font-weight: 400;
+   padding: 20px;
+
+}
+.banner-title-2{
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+width: 518px;
+font-weight: 700;
+padding: 20px;
+}
+
+.newsletter{
+    margin: 100px 180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.input{
+    height: 345px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.input-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.input-details{
+    width: 350px;
+    height: 100px;
+    color: #5A5A5D;
+   font-size: 16px;
+    font-weight: 400;
+}
+.form-field {
+    width: 300px;
+    margin: 0 auto 20px auto;
+    display: block;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+.button {
+    background-color:  #FF5400;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+form input::placeholder{
+color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+
+}
+.offer{
+    width: 200px;
+    transform: rotate(-19.628deg);
+    padding: 20px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    position: relative;
+    left: 420px;
+    bottom: 130px;
+}
+.offer-company{ 
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+
+}
+.offer-details{
+font-size: 24px;
+font-weight: 800;
+
+}
+
+/* Footer style */
+
+.footer{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content{
+  padding:100px 400px;
+}
+.footer-content h3{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footer-content p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.social-icon img{
+position: relative;
+left: 660px;
+bottom: 50px;
+}
+#horizontal{
+    margin: 0 284px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.copyright{
+    margin: 0 500px 0 600px;
+}
+.privacy{
+    font-family: 'Inter', sans-serif;
+    color: #131318;
+   font-weight: 300;
+   padding: 50px;
+}
