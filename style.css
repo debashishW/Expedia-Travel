@@ -7,12 +7,18 @@
     max-width: 1200px;
     margin:50px auto;
 }
+body{
+    width: 100%;
+}
 /* Hedaer Styles */
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.fa-solid{
+    display: none;
 }
 nav ul{
     display: flex;
@@ -48,9 +54,9 @@ nav li a{
 /* Main Styles */
 
 .banner-pic img{
-    width: 1170px;
-height: 500px;
-
+    /* width: 1170px; */
+    /* height: 500px; */
+width: 100%;
 }
 .banner-title{
     position: absolute;
@@ -160,10 +166,11 @@ height: 500px;
 .Destination{
   margin: 135px 160px; 
   width: 1170px;
- display: grid;
- grid-template-rows: repeat(100px,50px 50px,100px);
+  /* display: grid;
+ grid-template-rows: repeat(100px,50px 50px,100px); */
     
 }
+
 
 .Destination-content{
     margin: 50px 250px;
@@ -188,7 +195,7 @@ height: 500px;
 
 .option{
     margin: 50px 250px;
-    display: grid;
+
     
     
 }
@@ -286,7 +293,7 @@ font-weight: 400;
     padding-top: 200px;
 }
 .food-talk h1{
-    color: #131318;
+    color: #FF5400;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
@@ -316,6 +323,7 @@ font-weight: 400;
     font-weight: 800;
 
 }
+
 .bd-title-1{
     color: #5A5A5D;
     font-size: 16px;
@@ -452,3 +460,69 @@ bottom: 50px;
    font-weight: 300;
    padding: 50px;
 }
+
+
+/* Responsive styles */
+@media screen and (max-width:576px) {
+ 
+    nav ul{
+        display: none;
+    }
+    .fa-solid{
+        display: block;
+    }
+    .banner,body{
+        width: 100%;
+    }
+    
+    .Tours,.option,.food-sumary,.bangladesh,.newsletter{
+        flex-direction: column;
+    }
+    .content-banner{
+       display: flex;
+    }
+    .Destination{
+        grid-template-rows: repeat(1,1fr);
+    }
+    .footer{
+        width: 100%;
+    }
+    .input{
+        width: 100vw;
+    }
+    .footer{
+        width: 500vw;
+    }
+}
+
+@media (min-width:576px) and (max-width:992px){
+    nav ul{
+        display: none;
+    }
+    .fa-solid{
+        display: block;
+    }
+    .banner,body{
+        width: 100%;
+    }
+    
+    .Tours,.option,.food-sumary,.bangladesh,.newsletter{
+        flex-direction: column;
+    }
+    .content-banner{
+       display: flex;
+    }
+    .Destination{
+        grid-template-rows: repeat(1,1fr);
+    }
+    .footer{
+        width: 100%;
+    }
+    .input{
+        width: 100vw;
+    }
+    .footer{
+        width: 500vw;
+    }
+}
+
