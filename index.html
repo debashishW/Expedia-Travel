@@ -3,186 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expedia website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Expedia Travel website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <h3 class="navbar-title"><img src="Images/Group 40071 (2).png"> <span class="expedia">Ex</span>pedia</h3>
-            <i class="fa-solid fa-bars"></i>
-            <ul>
-                <li><a  class="active" href="#">Home</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+    <header>
+<nav>
+     <div class="show">
+        <img src="./images/Group 40071 (2).png">
+       <h3> <span style="color: #FF5400;margin-left: 8px;
+        ">Ex</span>pedia</h3>
+    </div>
+    <i class="fa-solid fa-bars"></i>
+    <ul>
+        <li><a href="#"></a><span style="color:#FF5400;">Home</span></li>
+        <li><a href="#"></a>Packages</li>
+        <li><a href="#"></a>Testimonial</li>
+        <li><a href="#"></a>Blog</li>
+        <li><a href="#"></a>Contact</li>
+    </ul>
+</nav>
+<div class="banner">
+    <h2>Explore Your Travel</h2>
+    <p class="leka">Travelling in a whole new way with Expedia. We help travelers plan their trips to ensure the best experience possible.</p>
+    <div class="option">
+            <input class="input-style" type="text" placeholder="Where go">
+        <select   class="input-style">
+        <option value="" > When</option>
+        </select>
+        <select  class="input-style">
+            <option value="">Select Type</option>
+        </select>
+           <input   class="input-style" type="submit" value="Find Now" style="background:  #FF5400; color: #FFF; padding: 16px 60px; "> 
+           <i class="fa fa-magnifying-glass"></i>
+       
+    </div>
+</div>
     </header>
+    <!-- main start here -->
     <main>
-        <div class="banner">
-            <div class="banner-pic">
-                <img src="Images/Group 13 (1) (1).png"> 
-            </div>
-            <div>
-                <h1 class="banner-title">Explore Your Travel</h1>
-                <p class="banner-description">Travelling in a whole new way with Expedia. We help travelers plan their trips to ensure the best experience possible..Expedition with Expedia!</p>
-            </div>
-            <div class="input-box">
-                <form class="form">
-                    <input type="text" placeholder="Where go">
-                    <select name="place" id="places">
-                       <option value="time">When</option>
-                         </select>
-                    <select name="place" id="places">
-                       <option value="time">Select Type</option>
-                         </select>
-                    <input  type="submit" value="Find Now">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </form>
-            </div>
-        </div>
-        <section>
-            <div class="Tours">
-                <div class="tour-details">
-                    <h3 class="tour-title">Our Popular Tours</h3>
-                    <div class="tour-description">
-                    <p>We are arranging travels for you all over the country and whole world.In the sea,forest,desert whereasyou want you can explore because expedia is arranging it for you......</p>
-                    <li>Travel with us in the hills in your way.Let's make a destination together.</li>
-                    <li>In the time of travelling you need a refreshment.So,Swimming is the way.Then Let's swim top of the Hills!</li>
-                    <li>Make a way to explore the world .So,Let's explore it by cycling acrross the Hills.</li>
-                    <p>Travel is refreshment of mind.It gives you pleasure.So enjoy your journey in many ways.So,make a way to explore.Beacause Expedia is with you for your Travel. </p>
-                    </div>
-                    <button class="btn">Read More</button>
-                    </div>
-                <div class="tour-poster">
-                    <img src="Images/Rectangle 4.png">
-                </div>    
-            </div>
-        </section>
-      <section>
-        <div class="Destination">
-            <div class="Destination-content">
-               <h3 class="Destination-content-title">Choose Your Destination</h3>
-               <p class="Destination-content-details">Choose your destination and then leave it to Expedia.Because Expedia is planing for you for your places.</p>
-            </div>
-            <div class="places">            
-               
-                    <img src="Images/Rectangle 5.png">
-                    <img src="Images/Rectangle 8.png">
-            </div>
-             <div class="places">
-                <img src="Images/Rectangle 6.png">
-                <img src="Images/Rectangle 7.png">
-                <img class="hi" src="Images/Rectangle 9.png">
-               
+          <section class="section1">
+            <div class="section1-text">
+            <h3 class="same-head">Our Popular Tours</h3>
+            <p class="section-para">
+                We are arranging travels for you all over the country and whole world.In the sea,forest,desert whereasyou want you can explore because expedia is arranging it for you......
+            </p>
+            <li class="section-para">
+                Travel Where you want By any medium because we are arranging it for you.
+            </li>
+            <li class="section-para">
+               .In the sea,forest,desert explore with expedia.
+            </li>
+            <li class="section-para">
+              You want to explore accross the mountain now no worries you can do it .
+            </li>
+            <p class="section-para">
+              Expedia is giving you all kind of facilities to you.For your comfort .So,join with Expedia.
+            </p>
+                <button class="btn-primary">Read More</button>
             </div> 
-            <div class="places">
-                <img src="Images/Rectangle 11.png">
-                <img src="Images/Rectangle 10.png">
+            <div class="img">
+                <img src="./Images/Rectangle 4.png">
             </div>
-        
+          </section>
+          <section class="section2">
+              <div class="section2-text">
+                <h2 class="same-head">Choose Your Destination</h2>
+                <p class="section-para">Choose what you want to explore we will make it for your.Expedition with Expedia!</p>
+              </div>
+              <div class="img-container">
+                <div class="grid-item1"><img src="./Images/Rectangle 5.png" ></div>
+                <div class="grid-item2"><img src="./Images/Rectangle 8.png" ></div>
+                <div class="grid-item3"><img src="./Images/Rectangle 6.png" ></div>
+                <div class="grid-item4"><img src="./Images/Rectangle 7.png" ></div>
+                <div class="grid-item5"><img src="./Images/Rectangle 9.png" ></div>
+                <div class="grid-item6"><img src="./Images/Rectangle 11.png" ></div>
+                <div class="grid-item7"><img src="./Images/Rectangle 10.png" ></div>
+              </div>
+          </section>
+          
+          <section class="section3">
+            <div class="section3-text">
+            <h3 class="same-head">Why Choose Us</h3>
+            <p class="section-para">Now you are thinking why you will choose us.Because we are on.We know your comfort.</p>
         </div>
-      </section>
-      <section>
-         <div class="option">
-            <div class="content">
-                <h3 class="content-name">Why Choose Us</h3>
-                <p class="content-sumary">We are always planing for you.If you choose us just pack your bag and left without planing because Expedia will do it for you. </p>
+        <div class="map">
+           <div class="hotel">
+           <img src="./hotel1.svg" alt="">
+           <h5 class="same-head another-head">Handpicked Hotels</h5>
+           <p class="section-para">All types of hotels are ready for you. Our hotel beckons with  comfort,  service is ready for you.May this year bring new happiness, new goals, new achievements, and a lot of new inspirations on your life.As my travel journey concludes, I'm left with a mosaic of cherished moments. From captivating landscapes to cultural immersion,
+            each experience enriched my soul. Farewell to the places explored and the connections made, knowing that the spirit of
+            adventure lives on. </p>
+        </div>
+        <div class="map">
+            <img src="./map1.svg" alt="">
+            <h5 class="same-head another-head">World Class Service</h5>
+            <p class="section-para ">In the sea,forest,desert whereasyou want you can explore because expedia is arranging it .Our main goal is best service.Hospitality is main for us.We are looking all good for your life.</p>
+        </div>
+        <div class="map">
+            <img src="./price-tag1.svg" alt="">
+            <h5 class="same-head another-head">Best Price Guarantee</h5>
+            <p class="section-para">We are arranging travels for you all over the country and whole world.When you are travelling tour cost sometime go higher.But,no worries Expedia making it for you.In the lowest amountt you can tour with us whenever you want.</p>
+        </div>
+          </section>
+          <section class="last">
+            <div class="last-text">
+                <h5 class="same-head another-head" >Newsletter</h5>
+                <p class="section-para">Get your daily dose of travel news & tips. Sign up today!</p>
+                <input type="text" name="" id="" placeholder="Enter your name">
+                <input type="text" name="" id=""placeholder="Enter your email">
+                <button class="last-btn">Subscribe</button>
             </div>
-            <div class="content-banner">
-             <div class="content-banner-titles">
-                <img src="hotel 1.png">
-                <h5 class="hotel">Handpicked Hotels</h5>
-                <p class="detail">We have all type of hotel for your comfort. </p>
-             </div>
-             <div class="content-banner-title">
-                <img src="map 1.png">
-                <h5 class="hotel">World Class Service</h5>
-                <p class="detail">Best services is our main prioprity.so,we are giving it without any hesitetion. </p>
-             </div>
-             <div class="content-banner-titled">
-                <img src="price-tag 1.png">
-                <h5 class="hotel">Best Price Guarantee</h5>
-                <p class="detail">Sometimes Travels get costlier so never worry with Expedia.Because we are giving you best offer. </p>
-             </div>
-            </div>
-         </div>
-      </section>
-    <section>
-        <div class="food">
-            <div class="food-content">
-                <h3 class="food-title">Enjoy your Food</h3>
-                <p class="food-details">When you are Travelling good food is  esential and maybe it's your first priority.So,now don't worry we are Here.Exepedia will manage all kinds of food for you!</p>
-            </div>
-        <div class=food-sumary>
-        <div class="food-talk">
-            <h1>Sea Food</h1>
-            <p>Food is neccessary in Travel.Aren't it?Enjoy our new food.It will give you new joy for you trip.The sea food are made freshly and professionally.It's more delicious you ever think.So,try it first without thhinking.</p>
-        </div>
-        <div>
-            <img src="food.jpg/pngwing.com.png">
-            </div>
-        </div>
-        </div>
-    </section>
-    </main>
-   <section>
-    <div class="bangladesh">
-        <div class="bd-content">
-            <h3 class="bd-title">A Simple Perfect Place To Get Lost</h3>
-            <P class="bd-title-1">Lost in where you want.Because Expedia alwaya with you. </P>
-           <li class="bd-title-2">To get vintage view then try Expedia it helps you to find it.</li>
-           <li class="bd-title-2">Expedition where you want.Then why not Expedia it helps you to lost in Blue,Hills,Fog,Why not Sky.</li>
-        <button class="btn">See More</button>
-        </div>
-        <div class="bd-banner">
-            <img src="Images/Group 40089.png">
-        </div>
-    </div>
-   </section> 
-        
-  <section>
-    <div class="newsletter">
-        <div class="input">
-            <h3 class="input-title">Newsletter</h3>
-            <p class="input-details">Get your daily dose of travel news & tips. Sign up today!</p>
-            <form>
-                <input type="text" class="form-field" placeholder="Enter your name" required>
+            <div class="discount-img">
                 
-                <input type="email" class="form-field" placeholder="Enter your email" required>
-                <input type="submit" class="button" value="Subscribe">
-            </form>
-        </div>
-        <div class="newsletter-banner">
-            <img src="Images/Rectangle 8 (1).png">
-            <div class="offer">
-                <p class="offer-company">Expedia.com</p>
-                <h3 class="offer-details">Save up to 70%</h3>
+                <img src="./Images/Rectangle 8 (1).png" alt="">
+                <div class="new-para">
+                    <p style=" text-align: center; font-family: Mulish;
+                     font-size: 1.5rem;
+                     font-weight: 400;
+                     position: relative;
+                     top: 15px;
+                     color: #FFF;">
+                        Travel.com <br>
+                    </p>  
+                    <p style=" text-align: center;
+                    font-family: Mulish;
+                              font-size: 2rem;
+                              font-weight: 800;
+                              position: relative;
+                              top: 20px;
+                              color: #FFF;">
+                        Save up to 70%
+                    </p> 
+                </div>
+                
             </div>
+          </section>
+    </main>
+    <footer>
+        <div class="footer-title show">
+            <img src="./images/Group 40071 (2).png">
+       <h3><span style="color: #FF5400; margin-left: 8px;
+        ">Ex</span>pedia</h3>
         </div>
-    </div>
-  </section>  
-  <footer class="footer">
-    <div class="footer-content">
-        <h3><img src="Images/Group 40071 (2).png"> <span class="expedia">Ex</span>pedia</h3>
-        <p>Follow us on Social Media to stay connected with our all new offers and new deals.Expedition with Expedia. </p>
-    </div>
-    <div class="social-icon">
-        <img src="food.jpg/Social.png">
-    </div>
-    <hr id="horizontal">
-    <div class="copyright">
-        <h3 class="privacy">2017, All Rights Reserved.</h3>
-    </div>
-  </footer>
+        <p class="footer-para section-para">
+         Expedition With Expedia!Always stay Connected with Us and Get exciting new offers.
+        </p>
+        <div class="social-link">
+            <img src="Social.png">
+        </div>
+
+
+        <hr style="margin-top: 40px; margin-left:410px; background: rgba(19, 19, 24, 0.10); width: 872px;
+        height: 1px;">
+    
+     <p style="color: #131318;
+     font-family: 'Inter', sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     margin-top: 95px;
+     padding-bottom: 50px;
+     ">
+     2017, All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
